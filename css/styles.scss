@@ -64,6 +64,7 @@ main {
 .mainGroup {
     width: 100%;
     max-width: 680px;
+    min-height: 480px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -82,8 +83,27 @@ main {
     font-weight: 400;
     font-size: 2em;
     max-width: 440px;
+    align-self: center;
 }
 
+section.blue {
+    background: $blue;
+    display: grid;
+    place-items: center;
+}
+
+div.sectionGroup {
+    width: 100%;
+    max-width: 1170px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+div.sectionGroup h2 {
+    max-width: 320px;
+    align-self: center;
+}
 footer {
     background: $blue;
     padding: 2rem;
